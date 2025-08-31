@@ -30,3 +30,7 @@ python ape_splitter.py "path\to\album.cue" --ffmpeg "C:\ffmpeg\bin\ffmpeg.exe" -
 ```bash
 python ape_splitter.py "album.cue"
 ```
+
+## Requirements
+    Python 3.6+
+    FFmpeg installed system-wide or specified via --ffmpeg argument
