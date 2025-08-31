@@ -1,4 +1,8 @@
-# possible args
+# Just run script
 python ape_splitter.py album.cue
-python ape_splitter.py album.cue --ffmpeg "path/to/ffmpeg"
-python ape_splitter.py album.cue -o "output_directory" --ffmpeg "path/to/ffmpeg"
+
+# possible args
+# If you do not have the system codec or it is not installed in the default path
+--ffmpeg "path/to/ffmpeg"
+# You can choose an output path by this
+-o "output_directory"
