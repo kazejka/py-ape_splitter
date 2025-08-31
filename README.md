@@ -17,8 +17,8 @@ A Python script that splits a single `.ape` (Monkey's Audio) audio file into ind
 
 | Argument | Description | Example |
 | :--- | :--- | :--- |
-| `--ffmpeg` | Specify a custom path to the `ffmpeg` executable. Use this if `ffmpeg` is not in your system's PATH or not installed in the default location. | `--ffmpeg "C:\Tools\ffmpeg\bin\ffmpeg.exe"` |
-| `-o`, `--output` | Choose a custom directory for the output files. If not specified, tracks will be saved in the current directory. | `-o ".\My Music\Album"` |
+| `--ffmpeg` | Specify a custom path to the `ffmpeg` executable. Use this if `ffmpeg` is not in your system's PATH or not installed in the default location. | `--ffmpeg "path\to\ffmpeg"` |
+| `-o`, `--output` | Choose a custom directory for the output files. If not specified, tracks will be saved in the current directory. | `-o "your\output\folder"` |
 
 ### Examples
 
